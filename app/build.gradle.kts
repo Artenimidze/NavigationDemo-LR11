@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.navigationdemo_lr11"
     compileSdk {
-        version = release(36)
+        version = release(37)
     }
 
     defaultConfig {
