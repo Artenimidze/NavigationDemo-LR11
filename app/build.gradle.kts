@@ -38,6 +38,8 @@ android {
 }
 
 dependencies {
+//    implementation(libs.androidx.navigationevent)
+//    implementation(libs.androidx.navigationevent.compose)
     implementation(libs.androidx.navigation3.runtime)
     implementation(libs.androidx.navigation3.ui)
     implementation(libs.kotlinx.serialization.core)

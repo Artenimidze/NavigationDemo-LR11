@@ -41,8 +41,8 @@ fun Home(onNavigation: (NavKey) -> Unit) {
             )
             Spacer(modifier = Modifier.size(30.dp))
             Button(onClick = {
-            }) {
                 onNavigation(WelcomeScreen(userName))
+            }) {
                 Text(text = "Register")
             }
         }
